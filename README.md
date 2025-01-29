@@ -78,4 +78,3 @@ Feel free to fork this repository, make changes, and submit pull requests. Your 
 ---
 
 **Happy coding!** 🎉
-```
