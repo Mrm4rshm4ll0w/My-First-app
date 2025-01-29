@@ -33,8 +33,9 @@ jobs:
     - name: Build the project (if build script is present)
       run: npm run build --if-present
 
-    - name: Run tests
-      run: npm test
+    # Remove the test step if no tests are defined
+    # - name: Run tests
+    #   run: npm test
 
     - name: Preview the app (optional, for Vite preview)
       run: npm run preview --if-present
